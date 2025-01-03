@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from mysqlclient import mysqlclient
 from flask_mysqldb import MySQL
 
 app = Flask(__name__)
