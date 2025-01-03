@@ -1,3 +1,4 @@
-flask
-flask_mysqldb
-pip install -r requirements.txt
+pip freeze > requirements.txt
+Flask==2.2.3
+Flask-MySQLdb==1.0.1
+gunicorn==20.1.0
